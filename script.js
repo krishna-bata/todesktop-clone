@@ -1,6 +1,8 @@
 const navDialog = document.getElementById("nav-dialog");
+const navBar = document.getElementById("nav-bar");
 function handleMenu() {
   navDialog.classList.toggle("hidden");
+  navBar.classList.toggle("hidden");
 }
 
 const initialTranslateLTR = -48*4;
